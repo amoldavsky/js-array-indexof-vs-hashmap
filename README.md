@@ -8,7 +8,14 @@ The suggestion was to improve the algorithm by using a HashMap by utilizing Obje
 
 You are welcome to clone and run these tests on your own setup.
 
-Running on Node 6.3 on Ubuntu 16
+```
+node test-insert.js
+node test-insert-unique.js
+node test-lookup.js
+node test-insert-and-lookup.js
+```
+
+Running on Node 6.3 ( V8 engine ) on Ubuntu 16 the results show that lookup alone becomes much faster with the HashMap as the data grows ( which is expected ), though, to create this structure in JS is very expensive. Below are the various tests separated by insetion, lookup, unique insertion, and insertion + lookup.
 
 test lookup + insert
  ```
