@@ -10,7 +10,8 @@ You are welcome to clone and run these tests on your own setup.
 
 Running on Node 6.3 on Ubuntu 16
 
- ```test lookup + insert
+test lookup + insert
+ ```
 payload: payload-01.json
 Url count 1
 array.indexOf x 11,545,063 ops/sec ±0.71% (87 runs sampled)
@@ -103,7 +104,8 @@ Fastest is array.indexOf
 ----------------
 ```
 
-```test insert only
+test insert only
+```
 payload: payload-01.json
 Url count 1
 array.indexOf x 5,382,144 ops/sec ±1.04% (85 runs sampled)
@@ -196,7 +198,8 @@ Fastest is array.indexOf
 ----------------
 ```
 
-```test insert unique items only
+test insert unique items only
+```
 payload: payload-01.json
 Url count 1
 array.indexOf x 11,743,809 ops/sec ±2.24% (85 runs sampled)
@@ -289,7 +292,8 @@ Fastest is array.indexOf
 ----------------
 ```
 
-```test lookup only
+test lookup only
+```
 payload: payload-01.json
 Url count 1
 array.indexOf x 12,029,886 ops/sec ±0.58% (91 runs sampled)
